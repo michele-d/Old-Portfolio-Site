@@ -1,0 +1,286 @@
+/*~~~Milestone Project Stylesheet ~~~/
+
+/*~~~ ## Colors ~~~/
+- maroon
+- black
+- sepia #e4e0d7
+
+/*~~~ Images are in the 'img' folder ~~~/
+
+/*~~~ ## Fonts ~~~/
+- Main font -> “El Messiri” 700
+- Accent font (headers) -> “El Messiri” 700
+- Paragraph Font -> "Roboto" 400
+
+
+/***** BASE STYLES *****/
+body {
+  width: 1400px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: maroon;
+}
+
+/***** GRID *****/
+header {
+  height: 1000px;
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: 'El Messiri', sans-serif;
+  padding: 125px 0 0 45px;
+  line-height: 32px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'El Messiri', sans-serif;
+  margin: 0;
+  padding:35px;
+  color: maroon;
+}
+
+h3 {
+  font-size:24px;
+  font-weight: bold;
+  margin: 0px;
+  color: maroon;
+}
+
+/***** Header *****/
+
+nav {
+  float: right;
+  padding: 30px 75px 30px 30px;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: maroon;
+  padding-left: 80px;
+}
+
+header h2 {
+  padding-left: 125px;
+  padding-top: 45px;
+  color: black;
+}
+
+/***** Main - Portfolio*****/
+
+main {
+  background-image: url('../img/work-background.jpg');
+  height: 1800px;
+}
+
+main h2 {
+  text-align: center;
+  padding: 25px;
+}
+
+article {
+  height: 900px;
+}
+
+article h2{
+  width: 1400px;
+  text-align: center;
+  color: #e4e0d7;
+}
+
+#project1 {
+    width: 435px;
+    height: 710px;
+    background: #e4e0d7;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 15px;
+}
+
+#project2 {
+    width: 435px;
+    height: 710px;
+    background: #e4e0d7;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px 15px;
+}
+
+#project3 {
+    width: 435px;
+    height: 710px;
+    background: #e4e0d7;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+#project1 img {
+  border: 5px solid maroon;
+  overflow: hidden;
+  margin: 10px;
+}
+
+#project1 .desc {
+  border: none;
+  background:#e4e0d7;
+  color: black;
+}
+
+#project1 h3 {
+  padding: 20px;
+  text-align: center;
+}
+
+#project1 p {
+  padding: 22px;
+  margin: 0px;
+  text-align: justify;
+}
+
+#project2 img {
+  border: 5px solid maroon;
+  overflow: hidden;
+  margin: 10px;
+}
+
+#project2 .desc {
+  border: none;
+  background: #e4e0d7;
+  color: black;
+}
+
+#project2 h3 {
+  padding: 20px;
+  text-align: center;
+}
+
+#project2 p{
+  padding: 22px;
+  margin: 0px;
+  text-align: justify;
+}
+
+#project3 img {
+  border: 5px solid maroon;
+  overflow: hidden;
+  margin: 10px;
+}
+
+#project3 .desc {
+  border: none;
+  background: #e4e0d7;
+  color: black;
+}
+
+#project3 h3 {
+  padding: 20px;
+  text-align: center;
+}
+
+#project3 p {
+  padding: 22px;
+  margin: 0px;
+  text-align: justify;
+}
+
+/***** MAin - About *****/
+
+#about {
+  height: 850px;
+  clear:both;
+}
+
+#about h2 {
+  width: 550px;
+  padding: 0px;
+}
+
+#about .desc  {
+  width: 600px;
+  padding: 25px 50px 25px 50px;
+  margin: 0 25px 0 50px;
+  float: left;
+  color: black;
+  background: #e4e0d7;
+}
+
+#about .image {
+  width: 420px;
+  height: 508px;
+  margin: 0 50px;
+  border: 15px solid black;
+  overflow: hidden;
+  float: left;
+}
+
+/***** Footer *****/
+
+footer {
+  height: 500px;
+  clear:both;
+  background: #e4e0d7;
+  text-align:center;
+}
+
+footer p {
+  font-weight: bold;
+  color: black;
+  line-height:40px;
+}
+
+.hire {
+  width: 400px;
+  float:left;
+  margin: 30px;
+}
+
+.hire a {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.follow {
+  width: 400px;
+  float:left;
+  margin: 30px;
+}
+
+.follow h3 {
+  padding-bottom: 25px;
+}
+
+.follow img {
+  width: 60px;
+  padding: 15px;
+}
+
+.meet {
+  width: 400px;
+  float: left;
+  margin: 30px;
+}
+
+span {
+  clear:both;
+  text-align:center;
+  color: maroon;
+  padding-top: 200px;
+}
